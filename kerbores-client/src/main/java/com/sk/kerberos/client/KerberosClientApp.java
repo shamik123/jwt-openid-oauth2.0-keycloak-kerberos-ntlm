@@ -19,6 +19,8 @@ public class KerberosClientApp {
 		System.setProperty("sun.security.spnego.debug", "true");
 		// disable usage of local kerberos ticket cache
 		System.setProperty("http.use.global.creds", "false");
+		
+		
 	}
 
 	public static void main(String[] args) {
