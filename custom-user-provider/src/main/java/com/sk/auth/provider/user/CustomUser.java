@@ -27,6 +27,8 @@ class CustomUser extends AbstractUserAdapter {
       String email,
       String firstName,
       String lastName,
+                       
+                       
       Date birthDate ) {
         super(session, realm, storageProviderModel);
         this.username = username;
