@@ -112,6 +112,9 @@ class CustomUser extends AbstractUserAdapter {
         CustomUser.Builder birthDate(Date birthDate) {
             this.birthDate = birthDate;
             return this;
+            
+            
+            
         }
         
         CustomUser build() {
