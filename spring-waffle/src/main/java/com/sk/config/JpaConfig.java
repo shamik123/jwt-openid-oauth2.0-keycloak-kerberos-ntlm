@@ -32,5 +32,8 @@ public class JpaConfig {
 		JpaTransactionManager jpat = new JpaTransactionManager();
 		jpat.setEntityManagerFactory(emf);
 		return jpat;
+		
+		
+		
 	}
 }
